@@ -1,0 +1,16 @@
+1725875757700	geckodriver	INFO	Listening on 127.0.0.1:50302
+1725875760821	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50303" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omkar\\AppData\\Local\\Temp\\rust_mozprofileLaWbLk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1725875761573	Marionette	INFO	Marionette enabled
+1725875761954	Marionette	INFO	Listening on port 50318
+WebDriver BiDi listening on ws://127.0.0.1:50303
+Read port: 50318
+1725875762333	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50303/devtools/browser/a0414e3c-f924-49ea-81d1-f51349f83cdb
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/yW/l/en_GB/-G7KoMA2lIG.js?_nc_x=Ij3Wp8lg5Kz, line 35: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1725875773443	Marionette	INFO	Stopped listening on port 50318
+Dynamically enable window occlusion 1

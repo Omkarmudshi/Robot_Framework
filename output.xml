@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.11.9 on win32)" generated="2024-09-09T16:58:02.492555" rpa="false" schemaversion="5">
+<suite id="s1" name="Robot Framework" source="D:\selenium test\Robot Framework">
+<suite id="s1-s1" name="TestCases" source="D:\selenium test\Robot Framework\TestCases">
+<suite id="s1-s1-s1" name="Dropdown" source="D:\selenium test\Robot Framework\TestCases\Dropdown.robot">
+<test id="s1-s1-s1-t1" name="Handling Dropdown and Lists" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-09-09T16:58:02.937584" level="INFO">Opening browser 'chrome' to base url 'https://testautomationpractice.blogspot.com/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-09-09T16:58:02.937584" elapsed="9.260539"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2024-09-09T16:58:12.202664" level="INFO">Selecting options from selection list 'country' by label India.</msg>
+<arg>country</arg>
+<arg>India</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2024-09-09T16:58:12.201643" elapsed="0.130995"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-09-09T16:58:14.333891" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-09-09T16:58:12.333739" elapsed="2.000152"/>
+</kw>
+<kw name="Select From List By Index" owner="SeleniumLibrary">
+<msg time="2024-09-09T16:58:14.334908" level="INFO">Selecting options from selection list 'country' by index 4.</msg>
+<arg>country</arg>
+<arg>4</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<status status="PASS" start="2024-09-09T16:58:14.333891" elapsed="0.134791"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-09-09T16:58:16.470202" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-09-09T16:58:14.469682" elapsed="2.000520"/>
+</kw>
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2024-09-09T16:58:16.470202" level="INFO">Selecting options from selection list 'country' by value japan.</msg>
+<arg>country</arg>
+<arg>japan</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2024-09-09T16:58:16.470202" elapsed="0.086391"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-09-09T16:58:18.558986" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-09-09T16:58:16.557590" elapsed="2.001396"/>
+</kw>
+<status status="PASS" start="2024-09-09T16:58:02.935588" elapsed="15.624410"/>
+</test>
+<status status="PASS" start="2024-09-09T16:58:02.554412" elapsed="16.006582"/>
+</suite>
+<status status="PASS" start="2024-09-09T16:58:02.552875" elapsed="16.010639"/>
+</suite>
+<status status="PASS" start="2024-09-09T16:58:02.494567" elapsed="16.069948"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Framework">Robot Framework</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="TestCases">Robot Framework.TestCases</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Dropdown">Robot Framework.TestCases.Dropdown</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
